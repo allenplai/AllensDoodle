@@ -5,6 +5,12 @@ An Android app that allows to draw something on your phone. [Support](http://twi
 
 ![demo](http://i.imgur.com/4gwXIDN.gif)
 
+###Features
+* Change Color by RGB
+* Change Alpha Value of color
+* Clear the whole doodle
+* Undo last doodle path
+
 ###Code
 * **DoodleView.Java** is a custom view and is the canvas of where the user can draw. It has all the functions of changing color, brush size, 
 undo and clear by using the [Path](https://developer.android.com/reference/android/graphics/Path.html)
@@ -14,6 +20,11 @@ and [Paint](https://developer.android.com/reference/android/graphics/Paint.html)
 * **MainActivity.Java** handles the all the Seek Bars and the onClickMethods and then calls methods provided in DoodleView class.
 
 * **activity_main.xml** is the layout of the app. It uses gridLayout to hold all the seek bars on the bottom of the DoodleView.
+
+
+###USAGE
+Download, open, and run on Android studio
+
 
 ###References
 Here is the list of references used to make this app
